@@ -28,19 +28,60 @@ WizardStyle=modern
 Name: "spanish"; MessagesFile: "compiler:Languages\Spanish.isl"
 
 [Files]
-Source: "C:\Users\Luis\Desktop\Instalador\FEAFIP V4\*"; DestDir: "{app}\FEAFIP V4"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\Luis\Desktop\Instalador\lsplib\*"; DestDir: "{app}\lsplib"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\Luis\Desktop\Instalador\OnLineCommManager\*"; DestDir: "C:\OnLineCommManager"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\Luis\Desktop\Instalador\Install.bat"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Luis\Desktop\Instalador\Firebird-3.0.7.33374_1_x64.exe"; DestDir: "{tmp}"; Flags: ignoreversion
+Source: "C:\Proyectos Delphi\GestionComercial\GestionComercial\Instalador\FEAFIP V4\*"; DestDir: "{app}\FEAFIP V4"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Proyectos Delphi\GestionComercial\GestionComercial\Instalador\lsplib\*"; DestDir: "{app}\lsplib"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Proyectos Delphi\GestionComercial\GestionComercial\Instalador\OnLineCommManager\*"; DestDir: "C:\OnLineCommManager"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Proyectos Delphi\GestionComercial\GestionComercial\Instalador\Install.bat"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Proyectos Delphi\GestionComercial\GestionComercial\Instalador\Firebird-3.0.7.33374_1_x64.exe"; DestDir: "{tmp}"; Flags: ignoreversion
 
+Source: "{tmp}\MenuBeta.exe"; DestDir:"{app}"; Flags: external
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [InstallDelete]
 Name: {app}\Install.bat; Type: files
 Name: {tmp}\Firebird-3.0.7.33374_1_x64.exe; Type: files
 
+[Dirs]
+
 [Registry]
+
+[Code]
+var
+  DownloadPage: TDownloadWizardPage;
+
+function OnDownloadProgress(const Url, FileName: String; const Progress, ProgressMax: Int64): Boolean;
+begin
+  if Progress = ProgressMax then
+    Log(Format('Descarga completa con éxito en: {tmp}: %s', [FileName]));
+  Result := True;
+end;
+
+procedure InitializeWizard;
+begin
+  DownloadPage := CreateDownloadPage(SetupMessage(msgWizardPreparing), SetupMessage(msgPreparingDesc), @OnDownloadProgress);
+end;
+
+function NextButtonClick(CurPageID: Integer): Boolean;
+begin
+  if CurPageID = wpReady then begin
+    DownloadPage.Clear;
+    DownloadPage.Add('https://github.com/kaossmdq/GestionComercial/raw/3e59bc1bf7efe5423ce975a978913c4f82469886/MenuBeta.exe', 'MenuBeta.exe', '');
+    DownloadPage.Show;
+    try
+      try
+        DownloadPage.Download;
+        Result := True;
+      except
+        SuppressibleMsgBox(AddPeriod(GetExceptionMessage), mbCriticalError, MB_OK, IDOK);
+        Result := False;
+      end;
+    finally
+      DownloadPage.Hide;
+    end;
+  end else
+    Result := True;
+end;
+
 
 [Run]
 Filename: {app}\FEAFIP V4\Registrar.bat; Flags: runhidden;  
