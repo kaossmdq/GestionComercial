@@ -1,0 +1,32 @@
+C:\WebSite\FEEJEMPLOS\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\Interop.FEAFIPLib.dll
+C:\WebSite\FEEJEMPLOS\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\FEAFIPDemo.csproj.ResolveComReference.cache
+C:\WebSite\FEEJEMPLOS\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\WebSite\FEEJEMPLOS\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\WebSite\FEEJEMPLOS\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\WebSite\FEEJEMPLOS\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\WebSite\FEEJEMPLOS\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\WebSite\FEEJEMPLOS\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\bin\Debug\FEAFIPDemo.exe
+C:\WebSite\FEEJEMPLOS\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\bin\Debug\FEAFIPDemo.pdb
+C:\WebSite\FEEJEMPLOS\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\FEAFIPDemo.exe
+C:\WebSite\FEEJEMPLOS\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\FEAFIPDemo.pdb
+C:\Program Files (x86)\FEAFIP\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\Interop.FEAFIPLib.dll
+C:\Program Files (x86)\FEAFIP\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\FEAFIPDemo.csproj.ResolveComReference.cache
+C:\Program Files (x86)\FEAFIP\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\FEAFIPDemo.pdb
+C:\Program Files (x86)\FEAFIP\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Program Files (x86)\FEAFIP\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Program Files (x86)\FEAFIP\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\FEAFIPDemo.csproj.GenerateResource.Cache
+C:\Program Files (x86)\FEAFIP\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\bin\Debug\FEAFIPDemo.exe
+C:\Program Files (x86)\FEAFIP\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\bin\Debug\FEAFIPDemo.pdb
+C:\Program Files (x86)\FEAFIP\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\FEAFIPDemo.exe
+C:\xampp\bitingenieria.com.ar\feafip\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\Interop.FEAFIPLib.dll
+C:\xampp\bitingenieria.com.ar\feafip\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\FEAFIPDemo.csproj.ResolveComReference.cache
+C:\xampp\bitingenieria.com.ar\feafip\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\FEAFIPDemo.pdb
+C:\xampp\bitingenieria.com.ar\feafip\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\FEAFIPDemo.csprojResolveAssemblyReference.cache
+C:\xampp\bitingenieria.com.ar\feafip\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\xampp\bitingenieria.com.ar\feafip\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\xampp\bitingenieria.com.ar\feafip\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\FEAFIPDemo.csproj.GenerateResource.Cache
+C:\xampp\bitingenieria.com.ar\feafip\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\bin\Debug\FEAFIPDemo.exe
+C:\xampp\bitingenieria.com.ar\feafip\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\bin\Debug\FEAFIPDemo.pdb
+C:\xampp\bitingenieria.com.ar\feafip\Ejemplos\CSharp\Facturas A y B\FEAFIPDemo\FEAFIPDemo\obj\x86\Debug\FEAFIPDemo.exe
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\FEAFIPDemo\obj\x86\Debug\FEAFIPDemo.csproj.ResolveComReference.cache
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\FEAFIPDemo\obj\x86\Debug\FEAFIPDemo.pdb

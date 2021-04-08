@@ -1,0 +1,16 @@
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\FEAFIPDemo\obj\x86\Debug\LSPDemo.csproj.ResolveComReference.cache
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\FEAFIPDemo\obj\x86\Debug\FEAFIPDemo.pdb
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\FEAFIPDemo\obj\x86\Debug\LSPDemo.csprojResolveAssemblyReference.cache
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\FEAFIPDemo\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\FEAFIPDemo\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\FEAFIPDemo\obj\x86\Debug\LSPDemo.csproj.GenerateResource.Cache
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\LSPDemo\obj\x86\Debug\LSPDemo.csproj.ResolveComReference.cache
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\LSPDemo\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\LSPDemo\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\LSPDemo\obj\x86\Debug\LSPDemo.csproj.GenerateResource.Cache
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\LSPDemo\bin\Debug\LSPDemo.exe
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\LSPDemo\bin\Debug\LSPDemo.pdb
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\LSPDemo\obj\x86\Debug\LSPDemo.exe
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\LSPDemo\obj\x86\Debug\LSPDemo.pdb
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\LSPDemo\obj\x86\Debug\LSPDemo.csprojResolveAssemblyReference.cache
+C:\xampp\bitingenieria.com.ar\lsplib\Ejemplos\C#\LSPDemo\obj\x86\Debug\Interop.lsplib.dll
