@@ -34,7 +34,7 @@ Source: "C:\Proyectos Delphi\GestionComercial\GestionComercial\Instalador\OnLine
 Source: "C:\Proyectos Delphi\GestionComercial\GestionComercial\Instalador\Install.bat"; DestDir: "{app}"; Flags: ignoreversion
 Source: "C:\Proyectos Delphi\GestionComercial\GestionComercial\Instalador\Firebird-3.0.7.33374_1_x64.exe"; DestDir: "{tmp}"; Flags: ignoreversion
 
-Source: "{tmp}\MenuBeta.exe"; DestDir:"{app}"; Flags: external
+Source: "{tmp}\Menu.exe"; DestDir:"{app}"; Flags: external
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [InstallDelete]
@@ -65,9 +65,9 @@ function NextButtonClick(CurPageID: Integer): Boolean;
 begin
   if CurPageID = wpReady then begin
     DownloadPage.Clear;
-    DownloadPage.Add('https://github.com/kaossmdq/GestionComercial/raw/3e59bc1bf7efe5423ce975a978913c4f82469886/MenuBeta.exe', 'MenuBeta.exe', '');
+    DownloadPage.Add('https://github.com/kaossmdq/GestionComercial/raw/main/Menu.exe', 'Menu.exe', '');
     DownloadPage.Show;
-    try
+    try                    
       try
         DownloadPage.Download;
         Result := True;
